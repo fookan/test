@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>検索</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/common_main_4.2.0.css">
+  <link rel="stylesheet" href="/css/search_main_3.0.0.css">
+  <!-- <script src="https://s.yimg.jp/i/docs/common/assets/1.0.0/js/modernizr-2.6.2.js"></script> -->
+</head>
+
+<body class="pages">
+  <div>
+    <main role="main">
+      <article id="p_release" role="article" class="top result">
+
+        <section class="narrow_down_section">
+          <!--検索ボックス//-->
+          <div class="search_type01 narrow_down_form" aria-label="検索フォーム">
+            <form action="/detail" method="post">
+              <span class="loupe_icon"></span><input type="text" placeholder="" id="srchInputViewTop">
+              <span id="sp_select_module"></span><input type="button" value="検索" id="srchInputViewBtn" role="button">
+<!--            <span class="loupe_icon"></span><input type="text" placeholder="" id="srchInputViewTop"><button
+              type="button" class="close_icon" onclick="$('#srchInputViewTop').val('');" role="button"
+              aria-label="入力内容を消去する"></button><span id="sp_select_module"></span><input type="button" value="検索"
+              id="srchInputViewBtn" role="button"> -->
+            </form>
+          </div>
+        </section>
+
+          <div class="search_account" id="searchAccount" style="display: none;">
+            <h1 class="indication">検索結果<span class="count_all"></span>件</h1>
+          </div>
+
+          <ul class="contentsWrap" id="result">
+            <li class="contents">
+              <a href="https://about.yahoo.co.jp/hr/job-info/role/0003/" data-ylk="aid:https://about.yahoo.co.jp/hr/job-info/role/0003/;" target="_blank" data-rapid_p="1">
+              <div class="news_img"><img src="https://s.yimg.jp/i/docs/hr/images/common/ogimage2018.png" alt=""></div>
+              <div class="news_ttl"
+                ><span class="category_tag">HR</span>
+                <p class="datelist">2020年10月29日</p>
+                <h2>募集職種詳細 - 採用情報 - ヤフー株式会社</h2>
+              </div>
+              </a>
+              </li>
+          </ul>
+
+          <div class="common_article zeromatch" id="zeroMatch" style="display: none;">
+          </div>
+
+        </section>
+
+      </article>
+    </main>
+  </div>
+</body>
+
+<!-- <script src="https://s.yimg.jp/i/docs/common/assets/1.0.0/js/jquery-1.7.1.min.js"></script> -->
+<!-- <script src="https://s.yimg.jp/i/docs/common/assets/1.0.0/js/underscore-1.4.3.js"></script> -->
+<!-- <script src="https://s.yimg.jp/i/docs/common/assets/1.0.0/js/plugins.js"></script> -->
+<!-- <script src="https://s.yimg.jp/i/docs/common/assets/js/common_main_3.0.0.js" defer async></script> -->
+<!-- <script src="https://s.yimg.jp/i/docs/common/assets/1.1.0/js/iscroll.js" type="text/javascript"></script> -->
+<!-- <script src="https://s.yimg.jp/images/ds/ult/jp/rapid-4.4.0.js" type="text/javascript"></script> -->
+<!-- <script src="https://s.yimg.jp/i/docs/search/assets/js/search_main_3.0.0.js" defer="" async=""></script> -->
+
+</html>
